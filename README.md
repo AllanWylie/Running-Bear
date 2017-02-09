@@ -28,10 +28,10 @@ Example of ReachID file
 2    WR_Hul_Ket  # Integer for reach and riverbed conductance parameter name
 3    WR_Ket_Gim  # Integer for reach and riverbed conductance parameter name
 
-RIVELEV reads a MODFLOW river file looking for river cellsanomalously higher 
-than its neighbors. It then lowers the elevation of theoffending cell to the elevation 
-of its highest neighbor. There is an option toenter a tolerance, if the nominated 
-tolerance is 0, then cell i,j can not beany higher than any of it’s neighbors. 
+RIVELEV reads a MODFLOW river file looking for river cells anomalously higher 
+than its neighbors. It then lowers the elevation of the offending cell to the elevation 
+of its highest neighbor. There is an option to enter a tolerance, if the nominated 
+tolerance is 0, then cell i,j can not be any higher than any of it’s neighbors. 
 
 RIVSTAGE makes a transient MODFLOW river file from a steady state
 river file, an integer array, and a reach list file. The reach list file
