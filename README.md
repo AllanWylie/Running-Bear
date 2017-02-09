@@ -3,27 +3,6 @@
 FORTRAN utility programs by
 Allan Wylie
 
-PDTRIB calculates the impact of curtailing
-groundwater rights in basins tributary to the ESPA. Two input files are
-required. A POD file listing number of PODs in the file on line 1, the water
-right number, priority date, irrigation cfs, basin number (does not need to be
-a formal basin number), and EXCEL serial date for the priority date (days since
-1/0/1900 to the priority date is an EXCEL serial date) on line 2 through the
-number of PODs. The following Figure illustrates the format.
-The second file is the
-consumptive use file. The first line contains the number of basins represented
-in the file, the second line contains basin number (must correspond to the
-basin number in the POD file), basin name, groundwater irrigated acres in the
-basin, and consumptive use per acre per year for that basin. 
-The basins need to be numbered sequentially beginning
-with number 1. The following Figure shows the proper format.
-PDTRIB asks for a POD File, a
-Consumptive use file, and a priority date, it then calculates the benefit of
-curtailing to the nominated priority date based on the acres and consumptive
-use contained in the Consumptive use file and the priority dates and permitted
-irrigation cfs in the POD File.
-
-
 RIVDRYBED reads an integer array identifying the
 dry river reach. The user then identifies a MODFLOW river file that needs
 updating and ASCII file identifying the total number of stress periods and the
